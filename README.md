@@ -31,3 +31,11 @@ When an eavesdropper ("Eve") measures photons in a mismatched basis, Heisenberg'
    ```bash
    git clone [https://github.com/EthanM-programin/BB84_Sim.git](https://github.com/EthanM-programin/BB84_Sim.git)
    cd BB84_Sim
+
+---
+
+## 🔐 E91 Entanglement & SOC Dashboard (Aliro Security Alignment)
+Upgraded the system to support the **Ekert91 (E91)** protocol. This introduces a centralized network node distributing Bell pairs (entangled qubits) in a 4D Hilbert space.
+* **Real-Time SOC Dashboard:** Features a live Security Operations Center terminal interface.
+* **CHSH Inequality:** Continuously monitors the network's $S$-value to mathematically prove entanglement ($S \approx 2.828$).
+* **Intrusion Detection:** Automatically flags Man-in-the-Middle attacks when the $S$-value collapses below the classical limit ($S \le 2.0$) due to broken monogamy.
